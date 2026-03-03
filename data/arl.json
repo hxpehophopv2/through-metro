@@ -1,4 +1,4 @@
-[ 
+[
   {
     "id": "A1",
     "thName": "สุวรรณภูมิ",
@@ -33,12 +33,7 @@
     "line": "arl",
     "connections": [
       { "target": "A3", "time": 4 },
-      { "target": "A5", "time": 4 },
-      { 
-        "target": "YL11", "time": 3,
-        "isTransfer":true,
-        "isCrossOp": true
-      }
+      { "target": "A5", "time": 4 }
     ]
   },
   {
@@ -59,10 +54,11 @@
     "connections": [
       { "target": "A5", "time": 4 },
       { "target": "A7", "time": 3 },
-      { 
-        "target": "BL21", "time": 3,
-        "isTransfer":true,
-        "isCrossOp":true
+      {
+        "target": "BL21",
+        "time": 3,
+        "isTransfer": true,
+        "isCrossOp": true
       }
     ]
   },
@@ -83,10 +79,11 @@
     "line": "arl",
     "connections": [
       { "target": "A7", "time": 1 },
-      { 
-        "target": "N2", "time": 2 ,
-        "isTransfer":true,
-        "isCrossOp":true
+      {
+        "target": "N2",
+        "time": 2,
+        "isTransfer": true,
+        "isCrossOp": true
       }
     ]
   }
